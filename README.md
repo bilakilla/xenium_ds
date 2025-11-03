@@ -1,4 +1,12 @@
-## Code for analysis presented in the thesis "Identifying biomarkers of response and resistance to anti-LAG-3-based therapy in advanced melanoma." by Nabila Zulkapeli.
+## Code for analysis presented in the thesis "Characterising the Tumour Microenvironment of Responders and Non-Responders to Anti-LAG-3-Based Therapy in Advanced Melanoma" by Nabila Zulkapeli.
 
 1. <B>filter_adata.py</b>: merge AnnData with metadata and filter out cores with low melanoma cells, low total cells, remove high TIL cores, and other QC to aid downstream analysis
-2. <b>nhood_per_core</b>: using <B>Squidpy</b> functions, build spatial neighbours per core instead of across all cores and merge and return results as an AnnData object
+2. <b>ICI_intro_stats_trials.ipynb</b>: code to make Fig. 1.3
+3. <b>umap_matrixplot.ipynb</b>: code to make Fig. 2.2
+4. <b>sccoda_ctp.ipynb</b>: code to compare cell type proportions in responders versus non-responders using <i>scCODA</i> (v0.1.9)
+5. <b>pertpy_deg.ipynb</b>: code to run differential gene expression analysis in responders versus non-responders using <i>PyDESeq2</i> (v0.5.3)
+6. <b>fgsea_region.R</b>: code to run gene set enrichment analysis in peritumour and high-tumour regions using <i>fgsea</i> (v1.32.4)
+7. <b>fgsea_figs.ipynb</b>: code to make Fig. 2.6
+8. <b>nhood_per_core.py</b>: using <i>Squidpy</i> (v1.6.1) functions, build spatial neighbours per core instead of across all cores and merge and return results as an AnnData object
+9. <b>nhood_niche.ipynb</b>: code to make Fig. 2.9-2.10 and run cluster assignments (extracting flat clusters from dendrograms in clustermaps) for niches in Table 3.2
+10. <b>liana_ccc.ipynb</b>: code to run cell-cell communication inference using <i>CellPhoneDB</i> (v2) and <i>LIANA</i> (v1.6.1)
