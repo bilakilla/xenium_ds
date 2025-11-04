@@ -1,4 +1,4 @@
-## Code for analysis presented in the thesis "Characterising the Tumour Microenvironment of Responders and Non-Responders to Anti-LAG-3-Based Therapy in Advanced Melanoma" by Nabila Zulkapeli.
+## Code for analysis presented in Honours thesis: "Characterising the Tumour Microenvironment of Responders and Non-Responders to Anti-LAG-3-Based Therapy in Advanced Melanoma" by Nabila Zulkapeli.
 
 1. <B>filter_adata.py</b>: merge AnnData with metadata and filter out cores with low melanoma cells, low total cells, remove high TIL cores, and other QC to aid downstream analysis
 2. <b>ICI_intro_stats_trials.ipynb</b>: code to make Fig. 1.3
