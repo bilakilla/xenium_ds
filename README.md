@@ -7,9 +7,8 @@
 5. <b>pertpy_deg.ipynb</b>: code to run differential gene expression analysis in responders versus non-responders using <i>PyDESeq2</i> (v0.5.3)
 6. <b>fgsea_region.R</b>: code to run gene set enrichment analysis in peritumour and high-tumour regions using <i>fgsea</i> (v1.32.4)
 7. <b>fgsea_figs.ipynb</b>: code to make Fig. 2.6
-8. <b>nhood_per_core.py</b>: using <i>Squidpy</i> (v1.6.1) functions, build spatial neighbours per core instead of across all cores and merge and return results as an AnnData object
-9. <b>nhood_niche.ipynb</b>: code to make Fig. 2.9-2.10 and run cluster assignments (extracting flat clusters from dendrograms in clustermaps) for niches in Table 3.2
-10. <b>liana_ccc.ipynb</b>: code to run cell-cell communication inference using <i>CellPhoneDB</i> (v2) and <i>LIANA</i> (v1.6.1)
+8. <b>nhood_niche.ipynb</b>: code to perform neighbourhood enrichment analysis per core and response group, and run cluster assignments (extracting flat clusters from dendrograms in clustermaps) for R and NR niches in Table 3.2
+9. <b>liana_ccc.ipynb</b>: code to run cell-cell communication inference using <i>CellPhoneDB</i> (v2) and <i>LIANA</i> (v1.6.1)
 <br>
 <b>Note</b>: All figures were modified in Adobe Illustrator (2024) after exporting from Python. These parameters were used to ensure .pdf files had editable text and vectors:<br>
 1. plt.rcParams['pdf.fonttype'] = 42<br>
